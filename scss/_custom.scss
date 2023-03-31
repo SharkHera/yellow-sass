@@ -1,0 +1,71 @@
+
+$grey : rgb(184, 174, 174);
+$orange : #f18b6d;
+$news-back : #222f36;
+
+
+
+
+
+.navigation{
+
+
+
+    .logo{
+    width: 20%;
+    height: 15%;
+}
+
+}
+
+
+
+#home{
+    background-image: url('../images/bkg-hero-header.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+  
+}
+.about{
+
+text-align: center;
+
+   .text-about{
+    width: 60%;
+    justify-content: center;
+} 
+}
+
+.galerie{
+    width: 100%;
+    height: 100%;
+}
+
+
+.news{
+    background-color: $news-back;
+}
+
+.project{
+    
+    background-image: url('../images/bkg-counter.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .barre{
+        border-right: 1px solid white;
+    }
+     .barre2 {
+        border-left: 1px solid white;
+    }
+}
+.line{
+    border-right: 1px solid ;
+    height: 40%;
+}
+
+
+.list{
+    list-style: none;
+}
